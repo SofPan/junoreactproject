@@ -1,0 +1,26 @@
+footer {
+    height: 10vh;
+    background: lightgrey;
+}
+
+.footerText {
+    border-top: 1px solid darkgrey;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+footer p a {
+    color: black;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.innerModal {
+    width: 60%;
+    height: 75%;
+    border: 5px solid turquoise;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+
+.modalBtn {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    font-weight: 700;
+    display: none;
+}

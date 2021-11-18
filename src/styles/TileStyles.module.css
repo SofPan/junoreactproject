@@ -1,0 +1,30 @@
+.recipeTile {
+    width: calc((100% / 3) - 50px);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.tileImage {
+    width: 99%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tileImage:hover {
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 10px;
+    transition: ease-out 0.5s;
+    box-shadow: 3px 6px 1px tomato;
+    cursor: pointer;
+}
+
+.tileName {
+    font-size: 18px;
+    text-align: center;
+    margin: 1%;
+    font-weight: 600;
+    line-height: 32px;
+}
